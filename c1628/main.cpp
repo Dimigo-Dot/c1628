@@ -1,14 +1,10 @@
-//
-//  main.cpp
-//  c1628
-//
-//  Created by 최재민 on 2022/08/17.
-//
-
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include <stdio.h>
+int main() {
+    int myGrade = 1;
+    char myMajor[] = "HD";
+    char myName[] = "최재민";
+    
+    
+    printf("%d학년 %s과 %s :)\n", myGrade, myMajor, myName);
     return 0;
 }
